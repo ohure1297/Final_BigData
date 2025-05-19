@@ -2,7 +2,7 @@ import json
 import csv
 
 # Đọc file JSON
-with open('cleaned_data.json', 'r', encoding='utf-8') as json_file:
+with open('cleaned_data1.json', 'r', encoding='utf-8') as json_file:
     data = json.load(json_file)
 
 # Tạo file CSV để lưu kết quả
